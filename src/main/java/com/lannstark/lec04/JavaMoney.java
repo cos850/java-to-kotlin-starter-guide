@@ -18,11 +18,13 @@ public class JavaMoney implements Comparable<JavaMoney> {
 
   @Override
   public int compareTo(@NotNull JavaMoney o) {
+    System.out.println("call compareTo()");
     return Long.compare(this.amount, o.amount);
   }
 
   @Override
   public boolean equals(Object o) {
+    System.out.println("call equals");
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     JavaMoney javaMoney = (JavaMoney) o;
