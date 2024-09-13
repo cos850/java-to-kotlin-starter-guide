@@ -40,5 +40,5 @@ fun main() {
     /**
      * 7. kolin 의 인스턴스 생성
      */
-    val person = Person()
+    val person = PersonKt()
 }
