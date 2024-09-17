@@ -1,12 +1,12 @@
 package com.lannstark.lec16;
 
-public class Person {
+public class JavaPerson {
 
   private final String firstName;
   private final String lastName;
   private int age;
 
-  public Person(String firstName, String lastName, int age) {
+  public JavaPerson(String firstName, String lastName, int age) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
@@ -21,7 +21,7 @@ public class Person {
   }
 
   public int nextYearAge() {
-    System.out.println("멤버 함수");
+    System.out.println("member function");
     return this.age + 1;
   }
 
